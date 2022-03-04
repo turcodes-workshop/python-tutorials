@@ -17,3 +17,4 @@ bunion = brands.union(brands2)
 
 print(bunion)
 print(len(brands))
+print(len(bunion))

@@ -20,7 +20,6 @@ list1.append(45)
 print(list1)
 print(thistuple)
 
-
 print(list1.count(3))
 print(thistuple.count(2))
 sumtuple = thistuple + thistuple2
