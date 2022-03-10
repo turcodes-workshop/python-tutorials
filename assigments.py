@@ -7,7 +7,7 @@ a,b = b,a
 print(a,b,c)
 
 a= a+5
-a += 5
+a += 5 # a = a + 5
 a -= 5
 a *= 5
 a %= 3
