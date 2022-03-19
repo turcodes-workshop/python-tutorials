@@ -1,6 +1,8 @@
 # Defining a decorator
 def trace(f):
     def wrap(*args, **kwargs):
+        print(f.__name__)
+        print(f.__qualname__)
         print(f"[TRACE] func: {f.__name__}, args: {args}, kwargs: {kwargs}")
         return f(*args, **kwargs)
 
