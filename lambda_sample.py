@@ -12,12 +12,12 @@ def add_two(x):
     return x + 2
 
 # Calling the decorated function
-print(add_two(3))
+# print(add_two(3))
 
 # Applying decorator to a lambda
-print((trace(lambda x: x ** 2))(5))
+# print((trace(lambda x: x ** 2))(5))
 
-
+@trace
 def test(*argssadf):
     print("test123124")
 
