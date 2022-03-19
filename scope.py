@@ -54,4 +54,3 @@ def changeCity(newCity):
 
 changeCity("Test")
 print(city)
-
