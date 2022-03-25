@@ -14,4 +14,3 @@ print(type(test))
 print(test is dictionaries)
 print(type(dictionaries))
 print(dictionaries["key1"]["tt"])
-
